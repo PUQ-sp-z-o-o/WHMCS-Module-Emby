@@ -1,5 +1,5 @@
 # WHMCS-Module-Emby
-This module enables your company to offer public media services to customers through Emby accounts
+This module enables your company to offer public media services to customers through Emby accounts. It facilitates the creation of customer accounts on a pre-configured Emby server, allowing for the sale of various media packages at different prices. The module requires a pre-installed Emby server and uses the Emby API for client account management. It also supports multiple languages. Administrators can suspend, terminate, or unsuspend users, change user passwords, and more, while clients can manage their devices and libraries.
 
 # Description
 
