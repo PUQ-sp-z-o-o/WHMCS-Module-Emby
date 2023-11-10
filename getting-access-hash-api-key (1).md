@@ -1,0 +1,19 @@
+# Getting Access Hash (API key)
+
+#####  [Order now](https://puqcloud.com/whmcs-module-emby.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Emby/) | [FAQ](https://faq.puqcloud.com/)
+
+```
+Dashboard -> API Keys
+```
+
+##### Create a new API Key
+
+[![15.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/15.png)](https://doc.puq.info/uploads/images/gallery/2023-11/15.png)
+
+##### Whrite an App Name
+
+[![16.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/16.png)](https://doc.puq.info/uploads/images/gallery/2023-11/16.png)
+
+##### Now you can getting an API key
+
+[![17.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/17.png)](https://doc.puq.info/uploads/images/gallery/2023-11/17.png)

@@ -1,0 +1,7 @@
+# Product Information
+
+#####  [Order now](https://puqcloud.com/whmcs-module-emby.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Emby/) | [FAQ](https://faq.puqcloud.com/)
+
+##### Here is the data presented for the service admin in WHMCS
+
+[![18.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/18.png)](https://doc.puq.info/uploads/images/gallery/2023-11/18.png)

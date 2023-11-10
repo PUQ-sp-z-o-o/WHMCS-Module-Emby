@@ -1,0 +1,90 @@
+# Setup guide: WHMCS setup
+
+#####  [Order now](https://puqcloud.com/whmcs-module-emby.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Emby/) | [FAQ](https://faq.puqcloud.com/)
+
+##### 1. Download the latest version of the module.
+
+PHP 8.1
+
+```Powershell
+wget http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Emby/PUQ_WHMCS-Emby-latest.zip
+```
+
+PHP 7.4
+
+```Powershell
+wget http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Emby/php74/PUQ_WHMCS-Emby-latest.zip
+```
+
+<p class="callout info">All versions are available via link: [http://download.puqcloud.com/WHMCS/servers/PUQ\_WHMCS-Emby/](http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Emby/)</p>
+
+##### 2. Unzip the archive with the module.
+
+```Powershell
+unzip PUQ_WHMCS-Emby-latest.zip
+```
+
+##### 3. Copy "puqEmby" to "WHMCS\_WEB\_DIR/modules/servers/"
+
+##### 4. Create new server Emby in WHMCS (System Settings-&gt;Products/Services-&gt;Servers)
+
+```
+System Settings->Servers->Add New Server
+```
+
+- Enter the correct **Name** and **Hostname**
+
+[![21.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/21.png)](https://doc.puq.info/uploads/images/gallery/2023-11/21.png)
+
+- In the **Server Details** section, select the "**PUQ Emby**" module and enter the correct **username**, **password** and **access hash (API key)** for the **Emby web interface**.
+- To check, click the **"Test connection"** button
+
+[![22.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/22.png)](https://doc.puq.info/uploads/images/gallery/2023-11/22.png)
+
+##### 5. Create a new Products/Services
+
+```
+System Settings->Products/Services->Create a New Product
+```
+
+In the **Module settings** section, select the **"PUQ Emby"** module
+
+[![23.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/23.png)](https://doc.puq.info/uploads/images/gallery/2023-11/23.png)
+
+- **License key:** A pre-purchased license key for the **"PUQ Emby"** module. For the module to work correctly, the key must be active
+
+##### Libraries:
+
+- The libraries you want to make available to customers of this product.  
+    <span style="color: #ff0000;"> **(IMPORTANT! Start a new line for each new library)**</span>  
+    Example:  
+    "Movies  
+    Beginner`s Programming Course  
+    Comedy"  
+    <span style="color: #ff0000;"> **IMPORTANT!** </span>If you have a folder named "-", please enter it not as the first one or rename it.  
+    If you want to select all folders together, simply leave the field EMPTY.  
+    If you don't want any folder to be accessible, type "-".
+
+##### User Configuration:
+
+- **Streaming bitrate limit:** An optional per-stream bitrate limit for all out of network devices. This is useful to prevent devices from requesting a higher bitrate than your internet connection can handle. This may result in increased CPU load on your server in order to transcode videos on the fly to a lower bitrate.
+- **Remote control:** Remote control of shared devices (DLNA devices are considered shared until a user begins controlling them)
+- **Media downloads:** Users can download media and store it on their devices. This is not the same as a sync feature. Book libraries require this enabled to function properly.
+- **Username prefix/Username suffix:** Necessary in order to generate a username for the service, in the format: **prefix&lt;cliet\_id&gt;-&lt;service\_id&gt;suffix**
+
+##### Allow playback (Restricting access to transcoding may cause playback failures in clients due to unsupported media formats)
+
+- **media**
+- **audio that requires transcoding**
+- **video that requires transcoding**
+- **video that requires conversion without re-encoding**
+
+##### Feature access:
+
+- **Allow Live TV access**
+- **Allow Live TV recording management**
+- **Force transcoding of remote media sources such as Live TV**
+
+##### Links
+
+- **Link to instruction:** Link to the instruction, if filled out, it will be reflected in the client area

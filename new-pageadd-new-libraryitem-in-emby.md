@@ -1,0 +1,57 @@
+# New PageAdd new library/item in Emby
+
+#####  [Order now](https://puqcloud.com/whmcs-module-emby.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Emby/) | [FAQ](https://faq.puqcloud.com/)
+
+### New library:
+
+To create a new library, you should to **create a folder** in your Emby server.
+
+First, navigate to the root of your project "/" and enter the following commands:
+
+```
+cd mnt
+```
+
+```
+mkdir LIBRARY_NAME
+```
+
+**LIBRARY\_NAME** - The name of the new library.
+
+##### After creating a folder, let's create a library in Emby: 
+
+Add a new library:
+
+[![9.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/9.png)](https://doc.puq.info/uploads/images/gallery/2023-11/9.png)
+
+Assign the appropriate folder to this library:
+
+[![11.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/11.png)](https://doc.puq.info/uploads/images/gallery/2023-11/11.png)
+
+[![12.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/12.png)](https://doc.puq.info/uploads/images/gallery/2023-11/12.png)
+
+###  
+
+### New item:
+
+To download a new item, navigate to the root of your project "/" and enter the following commands:
+
+```
+cd mnt/LIBRARY_NAME
+```
+
+```
+wget DOWNLOAD_ITEM_URL
+```
+
+**LIBRARY\_NAME** - The name of the library.
+
+**DOWNLOAD\_ITEM\_URL** - The download URL of the item you want to upload to the server.
+
+###  
+
+### After all
+
+Scan all libraries by clicking on the "Scan All Libraries" button, or scan the specific library by clicking on the three dots and selecting "Scan Library."
+
+[![13.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/13.png)](https://doc.puq.info/uploads/images/gallery/2023-11/13.png)[![14.png](https://doc.puq.info/uploads/images/gallery/2023-11/scaled-1680-/14.png)](https://doc.puq.info/uploads/images/gallery/2023-11/14.png)
