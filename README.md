@@ -1,9 +1,11 @@
 # WHMCS-Module-Emby
 This module enables your company to offer public media services to customers through Emby accounts. It facilitates the creation of customer accounts on a pre-configured Emby server, allowing for the sale of various media packages at different prices. The module requires a pre-installed Emby server and uses the Emby API for client account management. It also supports multiple languages. Administrators can suspend, terminate, or unsuspend users, change user passwords, and more, while clients can manage their devices and libraries.
 
-# Description
+## ownCloud module **[WHMCS](https://puqcloud.com/link.php?id=77)**
 
 #####  [Order now](https://puqcloud.com/whmcs-module-emby.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Emby/) | [FAQ](https://faq.puqcloud.com/)
+
+# Description
 
 Thanks to the module, the company is able to offer public media services to its customers based on Emby accounts.
 
