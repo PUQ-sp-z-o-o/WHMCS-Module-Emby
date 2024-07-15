@@ -53,6 +53,6 @@ Moreover, the module seamlessly integrates with Emby Connect functionality, enab
 
 >Emby minimal version: 4.7+
 
-![image](https://github.com/PUQ-sp-z-o-o/WHMCS-Module-Emby/assets/81689153/320fedef-5a76-4aac-aa37-4401cd7ac10f)
+![image](https://github.com/user-attachments/assets/a027eada-ed12-4ae0-ac53-743e6f7779e6)
 
-![image](https://github.com/PUQ-sp-z-o-o/WHMCS-Module-Emby/assets/81689153/999d026b-4689-44f5-990f-d64a40ebc53b)
+![image](https://github.com/user-attachments/assets/9e4c9ef3-9e41-4fea-b3f7-dc91a09aa548)
